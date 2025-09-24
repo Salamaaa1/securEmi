@@ -2,7 +2,7 @@
   "name": "securemi-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://securemi.ma",
+  "homepage": "https://salamaaa1.github.io/securEmi",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
