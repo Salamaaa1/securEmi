@@ -163,6 +163,122 @@ export default function TeamPage() {
         </div>
       </section>
 
+      {/* Organizing Committee */}
+      <section className="py-20 bg-card/30">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Organizing Committee</h2>
+            <p className="text-muted-foreground text-lg">Committee members organizing events and activities</p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+            <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
+              <CardHeader className="text-center">
+                <div className="w-20 h-20 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-3 flex items-center justify-center">
+                  <span className="text-lg font-bold text-primary-foreground">JM</span>
+                </div>
+                <CardTitle className="text-lg">Jihad MAHDAD</CardTitle>
+                <CardDescription>Committee Member</CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <div className="flex flex-wrap gap-1 justify-center mb-3">
+                  <Badge variant="secondary" className="text-xs">
+                    Organization
+                  </Badge>
+                  <Badge variant="secondary" className="text-xs">
+                    Events
+                  </Badge>
+                </div>
+                <p className="text-xs text-muted-foreground">Event organization and committee coordination</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
+              <CardHeader className="text-center">
+                <div className="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-3 flex items-center justify-center">
+                  <span className="text-lg font-bold text-primary-foreground">OR</span>
+                </div>
+                <CardTitle className="text-lg">Oussama RABII</CardTitle>
+                <CardDescription>Committee Member</CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <div className="flex flex-wrap gap-1 justify-center mb-3">
+                  <Badge variant="secondary" className="text-xs">
+                    Organization
+                  </Badge>
+                  <Badge variant="secondary" className="text-xs">
+                    Events
+                  </Badge>
+                </div>
+                <p className="text-xs text-muted-foreground">Event organization and committee coordination</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
+              <CardHeader className="text-center">
+                <div className="w-20 h-20 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-3 flex items-center justify-center">
+                  <span className="text-lg font-bold text-primary-foreground">MB</span>
+                </div>
+                <CardTitle className="text-lg">Mohamed BAKLOUL</CardTitle>
+                <CardDescription>Committee Member</CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <div className="flex flex-wrap gap-1 justify-center mb-3">
+                  <Badge variant="secondary" className="text-xs">
+                    Organization
+                  </Badge>
+                  <Badge variant="secondary" className="text-xs">
+                    Events
+                  </Badge>
+                </div>
+                <p className="text-xs text-muted-foreground">Event organization and committee coordination</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
+              <CardHeader className="text-center">
+                <div className="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-3 flex items-center justify-center">
+                  <span className="text-lg font-bold text-primary-foreground">OB</span>
+                </div>
+                <CardTitle className="text-lg">Othman BOUDI</CardTitle>
+                <CardDescription>Committee Member</CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <div className="flex flex-wrap gap-1 justify-center mb-3">
+                  <Badge variant="secondary" className="text-xs">
+                    Organization
+                  </Badge>
+                  <Badge variant="secondary" className="text-xs">
+                    Events
+                  </Badge>
+                </div>
+                <p className="text-xs text-muted-foreground">Event organization and committee coordination</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all">
+              <CardHeader className="text-center">
+                <div className="w-20 h-20 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-3 flex items-center justify-center">
+                  <span className="text-lg font-bold text-primary-foreground">ML</span>
+                </div>
+                <CardTitle className="text-lg">Malak LAAROUSI</CardTitle>
+                <CardDescription>Committee Member</CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <div className="flex flex-wrap gap-1 justify-center mb-3">
+                  <Badge variant="secondary" className="text-xs">
+                    Organization
+                  </Badge>
+                  <Badge variant="secondary" className="text-xs">
+                    Events
+                  </Badge>
+                </div>
+                <p className="text-xs text-muted-foreground">Event organization and committee coordination</p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Core Team by Department */}
       <section className="py-20">
         <div className="container mx-auto px-4">
@@ -463,7 +579,7 @@ export default function TeamPage() {
               <div className="text-muted-foreground">Active Members</div>
             </div>
             <div className="p-6">
-              <div className="text-4xl font-bold text-accent mb-2">15+</div>
+              <div className="text-4xl font-bold text-accent mb-2">20+</div>
               <div className="text-muted-foreground">Core Team</div>
             </div>
             <div className="p-6">
