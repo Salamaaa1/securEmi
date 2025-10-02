@@ -283,7 +283,7 @@ export default function TeamPage() {
                 <div className="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-3 flex items-center justify-center">
                   <span className="text-lg font-bold text-primary-foreground">IEH</span>
                 </div>
-                <CardTitle className="text-lg">Imane EL HASSANIE</CardTitle>
+                <CardTitle className="text-lg">Imane EL HASSANI</CardTitle>
                 <CardDescription>Secretaire General</CardDescription>
               </CardHeader>
               <CardContent className="text-center">
